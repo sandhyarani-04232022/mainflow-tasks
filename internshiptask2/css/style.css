@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
+ }
+ @font-face {
+    font-family: 'Open_Sans';
+    src: url("../fonts/Open_Sans/static/OpenSans-Regular.ttf");  
+  }
+body{
+    position: relative;
+    font-family: 'Montserrat' !important;
+   
+}
+
+
+.form-section {
+    background-color: rgb(80, 34, 82);
+    height: 1000px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.form-col-sec {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-col-innersec {
+    width: 500px;
+}
+.form-title-subtitle {
+    color: #ffff;
+    text-align: center;
+}
+
+.form-title-subtitle h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.form-title-subtitle p{
+    color: rgb(213, 176, 255);
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.input {    
+    padding: 10px;   
+    margin-bottom: 20px;
+   }
+::placeholder { 
+    text-transform: none;    
+    color: rgb(89, 100, 153);
+    font-weight: normal;   
+    font-size: 12px !important;
+ }
+
+ .btn-cls .submit {
+    width: 100%;
+    background-color: #0000 !important;
+    border: unset !important;
+    color: #ffff;
+    font-weight: bold;
+}
+input.submit:hover {  
+    border: unset !important;   
+    outline: unset !important;
+}
+
+.logo-sec {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.error-msg, #alert-msg {
+    background-color: #ffff;
+    color: #ff3333;
+    border: 1px solid 	#ff3333;
+    /* margin-top: 4px; */
+    /* margin-bottom: 20px; */
+    padding: 5px;
+    font-size: 12px;
+}
+div#success-msg {
+    color: #fff !important;
+    background-color: #4CAF50 !important;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+.btn-cls {
+    background-color: rgb(188 154 227);
+    border: none !important;
+    color: #ffff !important;
+    padding: 12px;
+}
+
+
+.carousel-item {  
+    color: #ffffff;
+    background-color: #34365a;
+    padding: 40px 70px;
+}
+.carousel-item img{
+    max-width: 100%;   
+    height: 550px;
+}
+.h3 {
+    font-family: 'Open Sans' !important;
+    font-size: 1.875rem;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.carousel-text,.toggle-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+
+.lets-talk {
+    color: #111111 !important;
+    background-color: #f1bb13 !important;
+    text-decoration: none;
+    border-radius: 30px;
+    text-transform: uppercase; 
+    line-height: 100px;
+    border-style: none;
+    font-size: 1rem;   
+    font-weight: 600;
+    --animation-custom_in-translate_x: 300px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+    margin: 38px auto 0 0;
+    padding: 14px 48px 16px 47px;
+}
+.slider-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-control-next, .carousel-control-prev {  
+    width: 60px !important;  
+     opacity: unset !important;   
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 100px;
+    height: 100px;  
+}
+
+.btn1,.btn2, .btn3 {
+    width: 22px !important;
+    height: 22px !important;
+    border-radius: 50%;    
+    color: #ffffff;
+    background-color: #34365a;
+}
+.btn1.active, .btn2.active, .btn3.active{
+color: #111111 !important;
+background-color: #f1bb13 !important;
+}
+.carousel-indicators { 
+    bottom: -20px;
+}
+
+.footer-section {
+    color: #ffffff;
+    background-color: #333333;
+    text-align: center;
+    padding: 30px 0px;
+}
+.footer-section p {
+    margin-bottom: 0;
+}
+.toggle-section {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+button.toggle-button {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+    border: unset;
+    border-radius: 50px;
+    padding: 12px 60px;
+    background: #F6F9FE;
+    color: #ffff;
+    background-color: #0078d0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center !important;
+    align-items: center !important;
+}
