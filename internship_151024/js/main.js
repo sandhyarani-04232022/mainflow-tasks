@@ -6,7 +6,7 @@ button.onclick = function () {
 
 var back = document.getElementById('nav-left-btn');
 back.onclick = function () {
-    var subtopnav = document.getElementById('nav-librarya');
+    var subtopnav = document.getElementById('nav-library');
     sideScroll(subtopnav,'left',25,100,10);
 };
 
