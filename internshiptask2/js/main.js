@@ -77,7 +77,7 @@ myForm?.addEventListener('submit', (event) => {
      }
 });}
 
-function myFunction() {
+function myToggle() {
   var x = document.getElementById("myDIV");
   if (x.innerHTML === "Hello") {
     x.innerHTML = "Swapped text!";
