@@ -307,6 +307,7 @@ label.term a,.login-here a {
     right: 0;
     bottom: 14px;
     color: #ffff;
+    cursor: pointer;
 }
 #pwd-sec {
     display: inline-flex;
