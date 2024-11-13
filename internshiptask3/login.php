@@ -10,11 +10,11 @@ include('header.php');?>
                         <span class="login-form-logo"><i class="fa-solid fa-mountain-sun"></i></span>
                         <span class="login-form-title">Log in</span>
                         <div class="form-group">
-                            <input type="text" class="input-l" name="usrname" placeholder="Username" value="">
+                            <input type="text" class="input-l" name="uname" placeholder="Username" value="">
                             <span class="material-symbols-outlined">person</span>
                         </div>
                         <div class="form-group pwd-sec">
-                            <input type="password" class="input-l" id="password" name="passwrd" placeholder="Password" value="">
+                            <input type="password" class="input-l" id="password" name="pwd" placeholder="Password" value="">
                             <span class="material-symbols-outlined">lock</span>                         
                             <span class="material-symbols-outlined" id="togglePwd" onclick="toggle(this)">visibility_off</span>
                         </div>   

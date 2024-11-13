@@ -15,17 +15,18 @@ include('header.php');?>
                           </div>
                         <div class="form-signup-group">                          
                             <!-- <input type="text" class="form-control input-s" id="fname" name="fname" placeholder="Name" value="">  -->
-                            <input type="text" class="form-control input-s" id="fname" name="fname" placeholder="Name" value="" onkeyup="myKeyup(this.id)"> 
-                            <?php  if(isset($_SESSION['err_message'])){ include('message.php');} ?>                          
+                            <input type="text" class="form-control input-s" id="fname" name="fname" placeholder="Name" value="<?php if(isset($_SESSION["fname"])){ echo $_SESSION["fname"];} ?>" onkeyup="myKeyup(this.id)"> 
+                            <?php  if(isset($_SESSION['err_message'])){ include('message.php');} ?>                                                     
                         </div>
                         <div class="form-signup-group">                           
-                            <input type="text" class="form-control input-s" id="uname" name="uname" placeholder="Username" value="" onkeyup="myKeyup(this.id)">   
+                            <input type="text" class="form-control input-s" id="uname" name="uname" placeholder="Username" value="<?php if(isset($_SESSION["uname"])){ echo $_SESSION["uname"];} ?>" onkeyup="myKeyup(this.id)">   
                             <?php  if(isset( $_SESSION['usernameErr'])){ include('message.php'); }?>  
                             <?php  if(isset($_SESSION['err_message'])){ include('message.php');} ?>                      
                         </div>  
                         <div class="form-signup-group">                            
-                            <input type="text" class="form-control input-s" id="email" name="email" placeholder="Email" value="" onkeyup="myKeyup(this.id)">  
-                            <?php if(isset($_SESSION['emailErr'])){ include('message.php'); }  ?>       
+                            <input type="text" class="form-control input-s" id="email" name="email" placeholder="Email" value="<?php if(isset($_SESSION["email"])){ echo $_SESSION["email"];} ?>" onkeyup="myKeyup(this.id)">  
+                            <?php if(isset($_SESSION['emailErr'])){ include('message.php'); }  ?>   
+                            <?php if(isset($_SESSION['email_exists_err'])){ include('message.php'); }  ?>
                             <?php if(isset($_SESSION['err_message'])){ include('message.php'); }  ?>                    
                         </div> 
                         <div class="form-signup-group">                          
@@ -33,8 +34,8 @@ include('header.php');?>
                             <?php if(isset($_SESSION['err_message'])){ include('message.php'); }?>      
                             <?php if(isset( $_SESSION['pwd_len_err'])){ include('message.php'); }?>     
                             <?php if(isset( $_SESSION['pwd_no_count_err'])){ include('message.php'); }?>
-                            <?php if(isset( $_SESSION['pwd_upchar_count_err'])){ include('message.php'); }?>
-                            <?php if(isset( $_SESSION['pwd_lowerchar_count_err'])){ include('message.php'); }?>                         
+                            <?php if(isset( $_SESSION['pwd_upchar_err'])){ include('message.php'); }?>
+                            <?php if(isset( $_SESSION['pwd_lowerchar_err'])){ include('message.php'); }?>                         
                            
                         </div> 
                         <div class="form-signup-group">                           
