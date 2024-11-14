@@ -313,3 +313,10 @@ label.term a,.login-here a {
     display: inline-flex;
      width: 100%;
 }
+.text-center.signup-account {
+    margin-top: 20px;
+    color: #ffff;
+}
+.text-center.signup-account a {
+    color: #ffff;
+}
