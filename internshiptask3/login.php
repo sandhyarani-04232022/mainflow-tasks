@@ -29,9 +29,12 @@ include('header.php');?>
                         <?php    if(isset($_SESSION['login_err_message'])){ include('message.php'); }?> 
                         <?php    if(isset($_SESSION['pwd_error'])){ include('message.php'); }?>        
                     </form>  
-                    <div class="text-center p-t-50"">
-                        <a class="txt1" href="#"> Forgot Password? </a>
-					</div>                       
+                    <div class="text-center p-t-50">
+                        <a class="txt1" href="#"> Forgot Password? </a>                   
+                    </div>
+                    <div class="text-center signup-account">
+                        <span>Don't you have account? <a href="http://localhost/internshiptask3/signup.php">Signup </a></span>  
+                    </div>                                       
                 </div>
             </div>
         </div>
