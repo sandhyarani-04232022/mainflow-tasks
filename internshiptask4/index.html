@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Task4</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="overlay">
+    <header class="header">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Caliculator with HTML, CSS, and JavaScript</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="calci-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 calc-col">
+                    <div class="calci-col-sec">
+                        <form name="calci_form">
+                            <input type="text" name="display" class="display" value="0" readonly>
+                            <span id="popup_err_text"></span>
+                        </form>
+                        <div class="button">
+                            <button type="button" class="btn-clear btn-others">AC</button>
+                            <button type="button" class="btn-delete btn-others">DEL</button>
+                            <button type="button" class="btn btn-others" data-num="%">%</button>
+                            <button type="button" class="btn btn-yellow" data-num="*">*</button>                         
+                            <button type="button" class="btn btn-grey" id="test" data-num="9">9</button>
+                            <button type="button" class="btn btn-grey" data-num="8">8</button>
+                            <button type="button" class="btn btn-grey" data-num="7">7</button>
+                            <button type="button" class="btn btn-yellow" data-num="/">/</button>                       
+                            <button type="button" class="btn btn-grey" data-num="6">6</button>
+                            <button type="button" class="btn btn-grey" data-num="5">5</button>
+                            <button type="button" class="btn btn-grey" data-num="4">4</button>
+                            <button type="button" class="btn btn-yellow" data-num="+">+</button>                            
+                            <button type="button" class="btn btn-grey" data-num="3">3</button>
+                            <button type="button" class="btn btn-grey" data-num="2">2</button>
+                            <button type="button" class="btn btn-grey" data-num="1">1</button>
+                            <button type="button" class="btn btn-yellow" data-num="-">-</button>
+                            <button type="button" class="btn btn-grey key-zero" data-num="0">0</button>
+                            <button type="button" class="btn btn-grey" data-num=".">.</button>
+                            <button type="button" class="btn-equal">=</button>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+          <p>©2001-2024 All Rights Reserved.</p>
+    </footer>
+</div>
+</body>
+<script src="js/main.js"></script>
+</html>
